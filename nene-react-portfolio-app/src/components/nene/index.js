@@ -1,7 +1,8 @@
 import React from "react";
 
+
 const Nene = () => {
-        return <article><Image></Image> </article>
+        return <article className="container-fluid"><Image></Image> </article>
     };
 
 const Image = () => <img src = "DSC08779.jpg" alt = "" />

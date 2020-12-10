@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import "../icons";
 import Nene from "../nene"
 import Title from "../title"
 import Name from "../name"
 import Chips from "../chips"
 import Navbar from "../navbar"
+import Aboutme from "../aboutme"
+
 
 
 
@@ -26,8 +29,8 @@ class MainContainer extends Component {
 render(){
     return ( 
         <div className = "App">
-        <Navbar />
-        <main>
+            <Navbar />
+        <main className="container-fluid">
             <Title />
             <Name />
             <Nene />
