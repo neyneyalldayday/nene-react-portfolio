@@ -7,7 +7,22 @@ import Navbar from "../navbar"
 
 
 
+
+
+
+
+
+
 class MainContainer extends Component {
+    constructor(){
+        super()
+        this.state ={
+            results: []
+        };
+    }
+    componentDidMount(){
+       
+    }
 render(){
     return ( 
         <div className = "App">

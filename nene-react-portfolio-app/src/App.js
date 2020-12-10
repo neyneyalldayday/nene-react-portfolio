@@ -1,6 +1,6 @@
-
-import MainContainer from "./components/maincontainer";
 import './App.css';
+import MainContainer from "./components/maincontainer";
+
 
 
 function App() {
