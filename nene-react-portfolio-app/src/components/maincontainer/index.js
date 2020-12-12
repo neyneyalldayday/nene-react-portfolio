@@ -1,11 +1,22 @@
 import React, { Component } from "react";
 import "../icons";
-import Nene from "../nene"
+// import Nene from "../nene"
 import Title from "../title"
 import Name from "../name"
-import Chips from "../chips"
 import Navbar from "../navbar"
-import Aboutme from "../aboutme"
+import Socials from "../socials"
+import Projects from "../projects"
+import Resume from "../resume"
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+import AboutMe from "../aboutme";
+  
+
+
 
 
 
@@ -26,17 +37,33 @@ class MainContainer extends Component {
     componentDidMount(){
        
     }
+
+
 render(){
     return ( 
-        <div className = "App">
-            <Navbar />
-        <main className="container-fluid">
+        <Router>
+        <div className = "App">   
+            <Navbar />          
+        <main className="container-fluid">  
+                  
             <Title />
             <Name />
-            <Nene />
-            <Chips />
+            <Route path="/AboutMe">
+            <AboutMe/>
+            </Route>
+            <Route path="/Socials">
+             <Socials />   
+            </Route>
+            <Route path="/Projects">
+             <Projects />   
+            </Route>      
+            <Route path="/Resume">
+             <Resume />   
+            </Route>      
+                   
         </main>
           </div>
+        </Router>
     )
 }
 }

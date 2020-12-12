@@ -1,17 +1,30 @@
-import React from "react";
+import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  
+    
+    Link
+  } from "react-router-dom";
+
 
 
                  
-export const Navbar = () => (
-<nav className = "navbar">
-    <ul className = "navbar-nav">
-        <li className="logo">
-            <a href="#" className="nav-link">
-            <FontAwesomeIcon icon="dice-d20"/>
-            <span className="link-text">N-N ALL D-D</span>   
-            </a>
+
+    class Navbar extends Component {
+        
+
+    render(){
+        return(
+            <nav className = "navbar">
+               
+                    <ul className = "navbar-nav">
+        <li className="logo">          
+        <br />
+        <FontAwesomeIcon icon="beer"/>
+        <span className="link-text">N-N ALL D-D</span>   
+            
         </li>
+                                
+        
        <li className = "nav-item">
            <a href = "/Home" className = "nav-link" >
            <FontAwesomeIcon icon="house-user" />           
@@ -19,10 +32,10 @@ export const Navbar = () => (
            </a>
        </li>
        <li className = "nav-item">
-           <a href = "/AboutMe" className = "nav-link" >
+           <Link to= "/AboutMe" className = "nav-link" >
            <FontAwesomeIcon icon="cat" />           
            <span className = "link-text" >About Me</span>
-           </a>
+           </Link>
        </li>
        <li className = "nav-item">
            <a href = "/Socials" className = "nav-link" >
@@ -36,21 +49,24 @@ export const Navbar = () => (
            <span className = "link-text" >projects</span>
            </a>
        </li>
+       <li className = "nav-item">
+           <a href = "/Resume" className = "nav-link" >
+           <FontAwesomeIcon icon="skull-crossbones"/>
+           <span className = "link-text" >Resume</span>
+           </a>
+       </li>
     </ul>
+    {/* </div> */}
 </nav>
-)
 
+        )
 
+    }
 
-// function Navbar() {
-//     return (
-//         <div className="Navbar">
-            
-//         </div>
-//     )
-// }
+    }
 
-// export default index
+    
+
 
 
 

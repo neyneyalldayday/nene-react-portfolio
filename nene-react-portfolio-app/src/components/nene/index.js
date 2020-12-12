@@ -1,10 +1,10 @@
-import React from "react";
+// import React from "react";
 
 
-const Nene = () => {
-        return <article className="container-fluid"><Image></Image> </article>
-    };
+// const Nene = () => {
+//         return <article><Image></Image></article>
+//     };
 
-const Image = () => <img src = "DSC08779.jpg" alt = "" />
+// const Image = () => <img src = "DSC08779.jpg" alt = "" />
 
-export default Nene;
+// export default Nene;
