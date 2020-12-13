@@ -1,3 +1,48 @@
+ react portfolio
+ 
+## Description
+ 
+in this project i am creating a new portfolio using react. react is interesting. its kinda plug n play with a lot of ways to mess up. Its been a weird shift in thought process. any way this is my newest porfolio
+ 
+## Table of Contents
+ 
+* [Installation](#Installation) 
+* [Usage](#Usage) 
+* [License](#License) 
+* [contributor](#contributor) 
+* [Tests](#Tests)
+* [username](#username) 
+* [email](#email)
+ 
+## Installation
+ 
+react, react-dom, react-router-dom and gh-pages
+ 
+## usage
+
+this is made for individuals to "view my skills"
+ 
+## contributor 
+ 
+no
+ 
+## Tests
+none
+ 
+## Licence
+
+![Badge](https://img.shields.io/badge/license-MIT License-green)
+ 
+## Username
+
+[Github Profile](https://github.com/neyneyalldayday/)
+ 
+## Email
+
+I can be contacted at this email: <drfrankenstein123@gmail.com>
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
