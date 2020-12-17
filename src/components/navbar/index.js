@@ -38,22 +38,22 @@ import {
            </Link>
        </li>
        <li className = "nav-item">
-           <a href = "/Socials" className = "nav-link" >
+           <Link to= "/Socials" className = "nav-link" >
            <FontAwesomeIcon icon="biking" />
            <span className = "link-text" >Socials</span>
-           </a>
+           </Link>           
        </li>
        <li className = "nav-item">
-           <a href = "/Projects" className = "nav-link" >
+           <Link to= "/Projects" className = "nav-link" >
            <FontAwesomeIcon icon="brain"/>
            <span className = "link-text" >projects</span>
-           </a>
+           </Link>
        </li>
        <li className = "nav-item">
-           <a href = "/Resume" className = "nav-link" >
+           <Link to= "/Resume" className = "nav-link" >
            <FontAwesomeIcon icon="skull-crossbones"/>
            <span className = "link-text" >Resume</span>
-           </a>
+           </Link>
        </li>
     </ul>
     {/* </div> */}
