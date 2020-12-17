@@ -14,18 +14,6 @@ import {
     Link
   } from "react-router-dom";
 import AboutMe from "../aboutme";
-  
-
-
-
-
-
-
-
-
-
-
-
 
 class MainContainer extends Component {
     constructor(){
@@ -48,6 +36,7 @@ render(){
                   
             <Title />
             <Name />
+            <Switch>
             <Route path="/AboutMe">
             <AboutMe/>
             </Route>
@@ -59,7 +48,8 @@ render(){
             </Route>      
             <Route path="/Resume">
              <Resume />   
-            </Route>      
+            </Route> 
+            </Switch>         
                    
         </main>
           </div>
