@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  
     
-    Link
+    Link, 
   } from "react-router-dom";
 
 
@@ -26,10 +26,10 @@ import {
                                 
         
        <li className = "nav-item">
-           <a href = "/Home" className = "nav-link" >
+          <Link to= "/home" className = "nav-link" >
            <FontAwesomeIcon icon="house-user" />           
            <span className = "link-text" >Home</span>
-           </a>
+           </Link>
        </li>
        <li className = "nav-item">
            <Link to= "/AboutMe" className = "nav-link" >
@@ -38,19 +38,19 @@ import {
            </Link>
        </li>
        <li className = "nav-item">
-           <Link to= "/Socials" className = "nav-link" >
+           <Link to= "/socials" className = "nav-link" >
            <FontAwesomeIcon icon="biking" />
            <span className = "link-text" >Socials</span>
            </Link>           
        </li>
        <li className = "nav-item">
-           <Link to= "/Projects" className = "nav-link" >
+           <Link to= "/projects" className = "nav-link" >
            <FontAwesomeIcon icon="brain"/>
            <span className = "link-text" >projects</span>
            </Link>
        </li>
        <li className = "nav-item">
-           <Link to= "/Resume" className = "nav-link" >
+           <Link to= "/resume" className = "nav-link" >
            <FontAwesomeIcon icon="skull-crossbones"/>
            <span className = "link-text" >Resume</span>
            </Link>

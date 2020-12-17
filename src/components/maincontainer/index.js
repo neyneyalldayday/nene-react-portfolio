@@ -37,16 +37,16 @@ render(){
             <Title />
             <Name />
             <Switch>
-            <Route path="/AboutMe">
+            <Route path="/aboutMe">
             <AboutMe/>
             </Route>
-            <Route path="/Socials">
+            <Route path="/socials">
              <Socials />   
             </Route>
-            <Route path="/Projects">
+            <Route path="/projects">
              <Projects />   
             </Route>      
-            <Route path="/Resume">
+            <Route path="/resume">
              <Resume />   
             </Route> 
             </Switch>         
