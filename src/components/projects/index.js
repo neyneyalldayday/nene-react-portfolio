@@ -23,7 +23,7 @@ function Projects() {
             <section >
             <li ref={el => {Card = el}} className = "nav-item" id="nav-item">
             <FontAwesomeIcon icon="hamburger" />
-            <Link to={{ pathname:"https://serene-brushlands-59187.herokuapp.com/"}} target="_blank">Eat da Burg Burg</Link>
+            <Link to={{ pathname:"https://real-estate-react-mock.herokuapp.com/"}} target="_blank">A mock real estate app</Link>
             <br></br>                    
             <Link ref={el => {Card = el}} className="repository" to={{ pathname:"https://github.com/neyneyalldayday/eat-Da-burg-burg"}} target="_blank">Repository</Link>                    
             </li>
