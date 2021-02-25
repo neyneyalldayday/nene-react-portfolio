@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {  
-    
-    Link, 
-  } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 
 
@@ -36,13 +33,7 @@ import {
            <FontAwesomeIcon icon="cat" />           
            <span className = "link-text" >About Me</span>
            </Link>
-       </li>
-       <li className = "nav-item">
-           <Link to= "/socials" className = "nav-link" >
-           <FontAwesomeIcon icon="biking" />
-           <span className = "link-text" >Socials</span>
-           </Link>           
-       </li>
+       </li>      
        <li className = "nav-item">
            <Link to= "/projects" className = "nav-link" >
            <FontAwesomeIcon icon="brain"/>
@@ -55,8 +46,7 @@ import {
            <span className = "link-text" >Resume</span>
            </Link>
        </li>
-    </ul>
-    {/* </div> */}
+    </ul>   
 </nav>
 
         )
@@ -64,11 +54,4 @@ import {
     }
 
     }
-
-    
-
-
-
-
-
 export default Navbar

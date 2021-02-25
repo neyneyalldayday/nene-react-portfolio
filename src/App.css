@@ -13,7 +13,7 @@ h2 {
 }
 
 p {
-  color: rgb(122, 70, 122);
+  color: rgb(202, 154, 202);
   font-size: 20px;
   opacity: 1;
 }
@@ -28,16 +28,8 @@ p {
 }
 
 body {
-  color: black;
-  background-color: rgb(218, 191, 226);
-  margin: 0;
-  padding: 0;
-  background-image: url(./components/nene/DSC08779.jpg);
-  background-blend-mode: normal;
-  background-size: 100%; 
-  object-fit: cover;
-  object-position: center;
-  background-repeat: no-repeat;
+
+  background-color: rgb(218, 191, 226);  
 
 }
 
@@ -60,6 +52,8 @@ main {
   position: fixed;
   background-color: var(--bg-primary);
   transition: width 400ms ease;
+  z-index: 100;
+  display: flex;
 }
 
 .navbar-nav {
