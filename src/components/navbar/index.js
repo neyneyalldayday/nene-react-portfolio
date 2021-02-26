@@ -1,23 +1,24 @@
-import React, { Component } from "react";
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from "react-router-dom";
+import { Link  } from "react-router-dom";
 
 
 
                  
 
-    class Navbar extends Component {
-        
-
-    render(){
+    const Navbar = () =>  {
+       
+     
+    
+ 
         return(
-            <nav className = "navbar">
-               
-                    <ul className = "navbar-nav">
-        <li className="logo">          
-        <br />
-        <FontAwesomeIcon icon="beer"/>
-        <span className="link-text">N-N ALL D-D</span>   
+            <nav className = "navbar" >
+            
+             <ul className = "navbar-nav">
+             <li className="logo">          
+             <br />
+             <FontAwesomeIcon icon="beer"/>
+                <span className="link-text">N-N ALL D-D</span>   
             
         </li>
                                 
@@ -49,9 +50,7 @@ import { Link } from "react-router-dom";
     </ul>   
 </nav>
 
-        )
-
-    }
+        )    
 
     }
 export default Navbar

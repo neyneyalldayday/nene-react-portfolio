@@ -99,7 +99,7 @@ object-fit: cover;
                             I got interested in sofware development after tinkering with programs
                             and building p.c computers. Build em now talk to em, i guess was the mindset.
                         </p>
-                        <Button to="/">Back to Home</Button>
+                        <Button to="/home">Back to Home</Button>
                     </Content>
                     </ColumnLeft>
                     <ColumnRight>

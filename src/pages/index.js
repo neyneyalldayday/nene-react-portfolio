@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Projects from '../components/projects'
 import Resume from '../components/resume'
+import { ProjectData } from '../data/ProjectData'
 import AboutMe from './Aboutme'
 
 const Home = () => {
@@ -9,7 +10,7 @@ const Home = () => {
         <>
             <Hero  /> 
             <AboutMe />             
-            <Projects />
+            <Projects slides={ProjectData} />
             <Resume />
         </>
     )

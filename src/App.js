@@ -4,8 +4,8 @@ import "../src/components/icons";
 import { Route, Switch, useLocation } from "react-router-dom";
 import AboutMe from './pages/Aboutme';
 import Navbar from '../src/components/navbar';
-import Projects from '../src/components/projects'
-import Resume from '../src/components/resume'
+import Projects from '../src/components/projects';
+import Resume from '../src/components/resume';
 import Home from './pages';
 import Footer from './components/Footer';
 import GlobalStyle from './globalStyles';
@@ -19,9 +19,12 @@ import 'aos/dist/aos.css'
 
 
 
-function App() {
 
+function App() {
+  
   const location = useLocation()
+
+ 
 
   useLayoutEffect(() => {
     window.scrollTo(0,0)
@@ -38,11 +41,11 @@ function App() {
 
     <>  
         <GlobalStyle />      
-        <Navbar />                  
+        <Navbar   />                     
         <Switch>
           <Route path="/home" exact component={Home} />
           <Route path="/aboutMe" component={AboutMe} />           
-          <Route path="/projects" component={Projects} />            
+          <Route path="/projects"  component={Projects} />            
           <Route path="/resume" component={Resume} />     
         </Switch> 
         <Footer />  

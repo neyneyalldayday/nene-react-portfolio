@@ -34,7 +34,7 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.25rem;
+  width: 0.60rem;
 }
 body::-webkit-scrollbar-track {
   background: #1e1e24;
@@ -141,7 +141,7 @@ main {
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 768px) {
   .navbar {
     bottom: 0;
     width: 100vw;
@@ -164,6 +164,9 @@ main {
 
   main {
     margin: 0;
+  }
+  .navbar:hover {
+    width: 100vw;
   }
   
   

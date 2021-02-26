@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import styled from 'styled-components';
 import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import PhotoTwo from '../../images/photo-2.jpg'
 
 const Section = styled.section`
  background: #000d1a;
@@ -99,7 +99,7 @@ function Resume() {
               </Content>
               </ColumnLeft> 
               <ColumnRight>
-              <Image src="" 
+              <Image src={PhotoTwo} 
               data-aos='fade-left'
               data-aos-duration='1200'
               data-aos-once='true'
