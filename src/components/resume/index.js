@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+
 import styled from 'styled-components';
 import {Link} from "react-router-dom"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -75,7 +75,7 @@ object-fit: cover;
 
 
 
-function Resume() {  
+const Resume = () => {  
    
   
     

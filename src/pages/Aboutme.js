@@ -1,11 +1,11 @@
-import React, { useRef, useEffect } from "react";
+
 import styled from 'styled-components';
 import DeskPhoto from '../images/desk.jpg'
 
 
 import { Button } from "../components/Button";
 
-function AboutMe() {
+const AboutMe = () => {
 
     const Section = styled.section`
      background: rgb(218, 191, 226);
