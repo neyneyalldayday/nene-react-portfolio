@@ -5,6 +5,9 @@ import Resume from '../components/resume'
 import { ProjectData } from '../data/ProjectData'
 import AboutMe from './Aboutme'
 
+
+
+
 const Home = () => {
     return (
         <>

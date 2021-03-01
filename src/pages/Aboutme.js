@@ -1,8 +1,5 @@
-
 import styled from 'styled-components';
 import DeskPhoto from '../images/desk.jpg'
-
-
 import { Button } from "../components/Button";
 
 const AboutMe = () => {

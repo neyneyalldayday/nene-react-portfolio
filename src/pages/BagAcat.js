@@ -1,9 +1,11 @@
 import React from 'react'
+import Cat from '../components/Cat'
+import { RealDataTwo } from '../data/RealDataTwo'
 
 const BagAcat = () => {
     return (
         <div>
-            <h1>baggin cats</h1>
+            <Cat {...RealDataTwo} />
         </div>
     )
 }

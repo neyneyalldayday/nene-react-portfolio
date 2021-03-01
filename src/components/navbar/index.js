@@ -36,7 +36,7 @@ import { Link  } from "react-router-dom";
            </Link>
        </li>      
        <li className = "nav-item">
-           <Link to= "/projects" className = "nav-link" >
+           <Link to= "/projectpage" className = "nav-link" >
            <FontAwesomeIcon icon="brain"/>
            <span className = "link-text" >projects</span>
            </Link>
