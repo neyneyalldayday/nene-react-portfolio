@@ -203,28 +203,28 @@ if(!Array.isArray(slides) || slides.length <= 0) {
                     <br></br>                    
                 <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/realEstatereact"}} target="_blank">Repository</Link>                    
                  </li>
-                 <Button to="/RealEstate">Learn More</Button>
+                 <Button to="/RealEstate" round="true">Learn More</Button>
                   <li  className = "nav-item" id="nav-item">
                  <FontAwesomeIcon icon="cat" />
                     <Link to={{ pathname:"https://bag-a-cat.herokuapp.com/"}} target="_blank">A mock cat adoption Website</Link>
                     <br></br>                    
                 <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/Bag-a-Cat"}} target="_blank">Repository</Link>                    
                  </li>
-                 <Button to="/BagaCat">Learn More</Button>
+                 <Button to="/BagaCat" round="true">Learn More</Button>
                 <li  className = "nav-item" id="nav-item">
                 <FontAwesomeIcon icon="khanda" />
                 <Link to={{ pathname:"https://samuraiswapmeet.herokuapp.com/"}} target="_blank">Samurai Swap Meet</Link>
                 <br></br>
                 <Link className="repository" to={{ pathname:"https://github.com/rendod99/Project_2"}} target="_blank">Repository</Link>
                 </li>
-                <Button to="/SamauriSwap">Learn More</Button>
+                <Button to="/SamauriSwap" round="true">Learn More</Button>
                 <li  className = "nav-item" id="nav-item">
                  <FontAwesomeIcon icon="dumbbell" />
                 <Link to={{ pathname:"https://limitless-hamlet-03137.herokuapp.com/?id=5fbaa8d0efd48b001768c5e2"}} target="_blank">Workout Tracker</Link> 
                 <br></br>        
                 <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/trackmyworkouts"}} target="_blank">Repository</Link>         
              </li>                  
-                  <Button to="/WorkOut">Learn More</Button>              
+                  <Button to="/WorkOut" round="true">Learn More</Button>              
               </Content>
               </ColumnLeft> 
               <ColumnRight>

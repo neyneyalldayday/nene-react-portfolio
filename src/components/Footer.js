@@ -122,7 +122,7 @@ const Footer = () => {
                 <Container>
                     <FooterTop>
                         <Quote>
-                            <h3>Its pretty addictive to kill time <br />dont kill too much</h3>
+                            <h3>Its pretty addictive to kill time <br />kill with moderation</h3>
                         </Quote>
                         <FooterInfo>
                             <h4>Contact me</h4>
