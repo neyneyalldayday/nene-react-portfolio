@@ -1,9 +1,11 @@
 import React from 'react'
+import Current from '../components/Current'
+import { CurrentData } from '../data/CurrentData'
 
 const Currently = () => {
     return (
         <div>
-            <h1>right noww</h1>
+            <Current {...CurrentData} />
         </div>
     )
 }

@@ -1,9 +1,11 @@
 import React from 'react'
+import RootsPage from '../components/RootsPage'
+import { RootsData } from '../data/RootsData'
 
 const Roots = () => {
     return (
         <div>
-            <h1>my roots</h1>
+            <RootsPage {...RootsData} />
         </div>
     )
 }

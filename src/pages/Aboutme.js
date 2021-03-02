@@ -96,6 +96,8 @@ object-fit: cover;
                             I got interested in sofware development after tinkering with programs
                             and building p.c computers. Build em now talk to em, i guess was the mindset.
                         </p>
+                        <h1>Software Skills</h1>
+                        <p>HTML, CSS, SASS, framer motion, gsap, aos, Javascript, express.js, node.js, React, mongoDB, mySQL, </p>
                         <Button to="/home">Back to Home</Button>
                     </Content>
                     </ColumnLeft>

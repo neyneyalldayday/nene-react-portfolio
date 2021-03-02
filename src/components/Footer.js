@@ -126,9 +126,9 @@ const Footer = () => {
                         </Quote>
                         <FooterInfo>
                             <h4>Contact me</h4>
-                            <Link to="/aboutme">my roots</Link>
-                            <Link to="/aboutme">my future</Link>
-                            <Link to="/aboutme">currenty</Link>
+                            <Link to="/Roots">my roots</Link>
+                            <Link to="/Future">my future</Link>
+                            <Link to="/Currently">currenty</Link>
                         </FooterInfo>
                         <FooterInfo>
                             <h4>more rene things</h4>
