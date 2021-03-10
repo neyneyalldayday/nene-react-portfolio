@@ -13,6 +13,7 @@
                 "@testing-library/react": "^11.2.2",
                 "@testing-library/user-event": "^12.5.0",
                 "aos": "^2.3.4",
+                "emailjs-com": "^2.6.4",
                 "framer-motion": "^3.7.0",
                 "gsap": "^3.6.0",
                 "react": "^17.0.1",

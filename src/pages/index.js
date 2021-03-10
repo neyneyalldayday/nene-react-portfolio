@@ -11,7 +11,7 @@ import AboutMe from './Aboutme'
 const Home = () => {
     return (
         <>
-            <Hero  /> 
+            <Hero />
             <AboutMe />             
             <Projects slides={ProjectData} />
             <Resume />

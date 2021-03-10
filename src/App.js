@@ -19,6 +19,8 @@ import Roots from './pages/Roots';
 import Future from './pages/Future';
 import Currently from './pages/Currently';
 import Gamming from './pages/Gamming';
+import Email from './pages/Emailpage';
+
 
 
 
@@ -49,7 +51,7 @@ function App() {
 
     <>  
         <GlobalStyle />      
-        <Navbar   />                        
+        <Navbar   />                              
         <Switch>
           <Route path="/home" exact component={Home} />
           <Route path="/aboutMe" component={AboutMe} />           
@@ -63,7 +65,8 @@ function App() {
           <Route path="/future" component={Future} />  
           <Route path="/currently" component={Currently} />  
           <Route path="/gamming" component={Gamming} />  
-        </Switch> 
+          <Route path="/emailpage" component={Email} />  
+        </Switch>      
         <Footer />  
       </>    
   );

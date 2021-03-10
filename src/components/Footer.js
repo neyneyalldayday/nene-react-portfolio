@@ -1,8 +1,8 @@
 import React from 'react'
 import styled, {css} from 'styled-components/macro';
 import {Link} from 'react-router-dom';
-import {FaInstagram, FaFacebookF, FaLinkedinIn, FaYoutube,} from 'react-icons/fa'
-import { IoMdArrowRoundForward } from 'react-icons/io';
+import {FaInstagram, FaFacebookF, FaLinkedinIn, FaYoutube} from 'react-icons/fa'
+import { IoMdArrowRoundForward  } from 'react-icons/io';
 import { Button } from './Button';
 import { GoMarkGithub } from "react-icons/go";
 
@@ -102,6 +102,8 @@ ${Icons}
 `;
 
 
+
+
 const Contact = styled.div`
 width: 50%;
 display: flex;
@@ -160,10 +162,12 @@ const Footer = () => {
                           target="_blank">
                             <GitHub />  
                           </a>
+                         
                       </SocialIcons> 
-                      <Contact>
-                          <Button to='/'>
-                              Lets Chat <IoMdArrowRoundForward />
+                      
+                      <Contact>                          
+                          <Button to='/emailpage'>
+                              Email Me <IoMdArrowRoundForward />
                           </Button>
                       </Contact>
                     </FooterBottom>
