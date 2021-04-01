@@ -10,7 +10,7 @@
  
 ## Description
  
-in this project i am creating a new portfolio using react. react is interesting. its kinda plug n play with a lot of ways to mess up. Its been a weird shift in thought process. any way this is my newest porfolio
+this is my portfolio. it has current mock projects that ive worked on over the corse of 9 months. It also outlines some old stuff i used to mess around with from time to time. I used styled components in this portfolio. 
  
 ## Table of Contents
  
