@@ -1,5 +1,6 @@
  
- 
+ https://neyneyalldayday.github.io/nene-react-portfolio/
+ it works now
  react portfolio
  
  ![port nene](https://user-images.githubusercontent.com/65675240/102022190-bd6f6300-3d4a-11eb-9be9-daa1c57174ad.PNG)
