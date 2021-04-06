@@ -134,9 +134,9 @@ const Footer = () => {
                         </FooterInfo>
                         <FooterInfo>
                             <h4>more rene things</h4>
-                            <Link to="/aboutme">gaming</Link>
-                            <Link to="/aboutme">cinema</Link>
-                            <Link to="/aboutme">photography</Link>
+                            <Link to="/Gamming">gaming</Link>
+                            <Link to="/Cinema">cinema</Link>
+                            <Link to="/PcBuilds">PcBuilds</Link>
                         </FooterInfo>
                     </FooterTop>
                     <FooterBottom>                       

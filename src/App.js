@@ -20,6 +20,7 @@ import Future from './pages/Future';
 import Currently from './pages/Currently';
 import Gamming from './pages/Gamming';
 import Cinema from './pages/Cinema';
+import PcBuilds from './pages/PcBuilds';
 import Email from './pages/Emailpage';
 
 
@@ -67,6 +68,7 @@ function App() {
           <Route path="/currently" component={Currently} />  
           <Route path="/gamming" component={Gamming} />  
           <Route path="/cinema" component={Cinema} />  
+          <Route path="/pcbuilds" component={PcBuilds} />  
           <Route path="/emailpage" component={Email} />  
         </Switch>      
         <Footer />  
