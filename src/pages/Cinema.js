@@ -1,9 +1,11 @@
 import React from 'react'
+import CinemaPage from '../components/CinemaPage'
+import { CinemaData } from '../data/CinemaData'
 
 const Cinema = () => {
     return (
         <div>
-            <h1>camera work</h1>
+            <CinemaPage slides={ CinemaData} />
         </div>
     )
 }

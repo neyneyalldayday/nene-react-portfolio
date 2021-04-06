@@ -19,6 +19,7 @@ import Roots from './pages/Roots';
 import Future from './pages/Future';
 import Currently from './pages/Currently';
 import Gamming from './pages/Gamming';
+import Cinema from './pages/Cinema';
 import Email from './pages/Emailpage';
 
 
@@ -65,6 +66,7 @@ function App() {
           <Route path="/future" component={Future} />  
           <Route path="/currently" component={Currently} />  
           <Route path="/gamming" component={Gamming} />  
+          <Route path="/cinema" component={Cinema} />  
           <Route path="/emailpage" component={Email} />  
         </Switch>      
         <Footer />  
