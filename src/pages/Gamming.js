@@ -1,9 +1,11 @@
 import React from 'react'
+import GammingPage from '../components/GammingPage'
+import {GammingData} from '../data/GammingData'
 
 const Gamming = () => {
     return (
         <div>
-            <h1>gamming stuff</h1>
+            <GammingPage slides={ GammingData }/>
         </div>
     )
 }
