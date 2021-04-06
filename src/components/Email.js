@@ -1,9 +1,12 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import styled from 'styled-components';
-import {Button} from '../components/Button'
 import{ init } from 'emailjs-com';
 init("user_mhbJdi6jtA3khrB3mb8ec");
+
+const H1 = styled.h1`
+margin-left: 50%;
+`;
 
 const Section = styled.section`
 width: 100%
@@ -94,6 +97,7 @@ const Email = () => {
     return (
         <Container>
             <Section>
+                <H1>email me</H1>
             <Form  onSubmit={sendEmail}>
                     <Subject type="text" placeholder="Subject" name="subject" />
                         <label>Name</label>
@@ -102,9 +106,9 @@ const Email = () => {
                             <EmailAddress type="email" placeholder="Email Address" name="email" />
                        <label>Message</label>
                     <Textarea name="message" placeholder="Your message" />
-                    <Button>
+                   
                     <input type="submit" value="Send Message" />  
-                    </Button>
+                   
                     
                 </Form>
             </Section>                
