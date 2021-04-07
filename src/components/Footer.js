@@ -127,7 +127,7 @@ const Footer = () => {
                             <h3>Its pretty addictive to kill time <br />kill with moderation</h3>
                         </Quote>
                         <FooterInfo>
-                            <h4>Contact me</h4>
+                            <h4>Rene Things</h4>
                             <Link to="/Roots">my roots</Link>
                             <Link to="/Future">my future</Link>
                             <Link to="/Currently">currenty</Link>
