@@ -22,6 +22,8 @@ import Gamming from './pages/Gamming';
 import Cinema from './pages/Cinema';
 import PcBuilds from './pages/PcBuilds';
 import Email from './pages/Emailpage';
+import Hero from './components/Hero';
+
 
 
 
@@ -53,7 +55,7 @@ function App() {
 
     <>  
         <GlobalStyle />      
-        <Navbar   />                              
+        <Navbar   />                                      
         <Switch>
           <Route path="/home" exact component={Home} />
           <Route path="/aboutMe" component={AboutMe} />           
@@ -70,7 +72,8 @@ function App() {
           <Route path="/cinema" component={Cinema} />  
           <Route path="/pcbuilds" component={PcBuilds} />  
           <Route path="/emailpage" component={Email} />  
-        </Switch>      
+        </Switch> 
+        <Hero />     
         <Footer />  
       </>    
   );

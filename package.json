@@ -1,7 +1,7 @@
 {
         "name": "nene-react-portfolio-app",
         "version": "0.1.0",
-        "homepage": "https://neyneyalldayday.gihub.io/home",
+        "homepage": "https://neyneyalldayday.gihub.io/nene-react-portfolio",
         "private": true,
         "dependencies": {
                 "@fortawesome/fontawesome-svg-core": "^1.2.32",

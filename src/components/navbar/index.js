@@ -23,12 +23,12 @@ import { Link  } from "react-router-dom";
         </li>
                                 
         
-       <li className = "nav-item">
+       {/* <li className = "nav-item">
           <Link to= "/home" className = "nav-link" >
            <FontAwesomeIcon icon="house-user" />           
            <span className = "link-text" >Home</span>
            </Link>
-       </li>
+       </li> */}
        <li className = "nav-item">
            <Link to= "/AboutMe" className = "nav-link" >
            <FontAwesomeIcon icon="cat" />           
