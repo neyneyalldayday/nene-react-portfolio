@@ -1,7 +1,6 @@
- 
- https://neyneyalldayday.github.io/nene-react-portfolio/
- it works now
- react portfolio
+ i changed the home page link so the app wont break the second you load in
+
+
  
  ![port nene](https://user-images.githubusercontent.com/65675240/102022190-bd6f6300-3d4a-11eb-9be9-daa1c57174ad.PNG)
 ![portfolio problems](https://user-images.githubusercontent.com/65675240/102022192-bfd1bd00-3d4a-11eb-8815-86216e1b2fa6.PNG)
