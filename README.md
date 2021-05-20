@@ -1,5 +1,5 @@
  i changed the home page link so the app wont break the second you load in
- https://neyneyalldayday.github.io/nene-react-portfolio/
+ https://neyneyalldayday.github.io/home/
  it works now
  react portfolio
  
