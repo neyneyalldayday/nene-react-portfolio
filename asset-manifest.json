@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/nene-react-portfolio/static/css/main.0aeee244.chunk.css",
-    "main.js": "/nene-react-portfolio/static/js/main.da68b966.chunk.js",
-    "main.js.map": "/nene-react-portfolio/static/js/main.da68b966.chunk.js.map",
+    "main.css": "/nene-react-portfolio/static/css/main.32d3f98d.chunk.css",
+    "main.js": "/nene-react-portfolio/static/js/main.7c4afcf1.chunk.js",
+    "main.js.map": "/nene-react-portfolio/static/js/main.7c4afcf1.chunk.js.map",
     "runtime-main.js": "/nene-react-portfolio/static/js/runtime-main.bd4638d2.js",
     "runtime-main.js.map": "/nene-react-portfolio/static/js/runtime-main.bd4638d2.js.map",
     "static/css/2.ec02d681.chunk.css": "/nene-react-portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.191c11ec.chunk.js": "/nene-react-portfolio/static/js/2.191c11ec.chunk.js",
-    "static/js/2.191c11ec.chunk.js.map": "/nene-react-portfolio/static/js/2.191c11ec.chunk.js.map",
+    "static/js/2.2261a57a.chunk.js": "/nene-react-portfolio/static/js/2.2261a57a.chunk.js",
+    "static/js/2.2261a57a.chunk.js.map": "/nene-react-portfolio/static/js/2.2261a57a.chunk.js.map",
     "static/js/3.83a333d4.chunk.js": "/nene-react-portfolio/static/js/3.83a333d4.chunk.js",
     "static/js/3.83a333d4.chunk.js.map": "/nene-react-portfolio/static/js/3.83a333d4.chunk.js.map",
     "index.html": "/nene-react-portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/nene-react-portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.0aeee244.chunk.css.map": "/nene-react-portfolio/static/css/main.0aeee244.chunk.css.map",
-    "static/js/2.191c11ec.chunk.js.LICENSE.txt": "/nene-react-portfolio/static/js/2.191c11ec.chunk.js.LICENSE.txt",
+    "static/css/main.32d3f98d.chunk.css.map": "/nene-react-portfolio/static/css/main.32d3f98d.chunk.css.map",
+    "static/js/2.2261a57a.chunk.js.LICENSE.txt": "/nene-react-portfolio/static/js/2.2261a57a.chunk.js.LICENSE.txt",
     "static/media/armor.cd6aea69.jpg": "/nene-react-portfolio/static/media/armor.cd6aea69.jpg",
     "static/media/beetlejuice.fe90f008.jpg": "/nene-react-portfolio/static/media/beetlejuice.fe90f008.jpg",
     "static/media/btowncomputer.41cfbef6.jpg": "/nene-react-portfolio/static/media/btowncomputer.41cfbef6.jpg",
@@ -45,8 +45,8 @@
   "entrypoints": [
     "static/js/runtime-main.bd4638d2.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.191c11ec.chunk.js",
-    "static/css/main.0aeee244.chunk.css",
-    "static/js/main.da68b966.chunk.js"
+    "static/js/2.2261a57a.chunk.js",
+    "static/css/main.32d3f98d.chunk.css",
+    "static/js/main.7c4afcf1.chunk.js"
   ]
 }
