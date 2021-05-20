@@ -105,6 +105,8 @@ main {
 }
 
 
+
+
 .fa-primary {
   color: #ff7eee;
 }
@@ -147,6 +149,18 @@ main {
     width: 100vw;
     height: 5rem;
     
+  }
+
+  .navbar:hover .link-text {
+    display: none;
+    
+  }
+
+  .nav-link svg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
   }
  
 

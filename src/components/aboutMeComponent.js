@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import DeskPhoto from '../images/desk.jpg'
-import { Button } from "../components/Button";
+
 
 const AboutMePage = () => {
 
@@ -98,7 +98,7 @@ object-fit: cover;
                         </p>
                         <h1>Software Skills</h1>
                         <p>HTML, CSS, SASS, framer motion, gsap, aos, Javascript, express.js, node.js, React, mongoDB, mySQL, </p>
-                        <Button to="/home">Back to Home</Button>
+                       
                     </Content>
                     </ColumnLeft>
                     <ColumnRight>
