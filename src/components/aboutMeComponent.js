@@ -65,8 +65,12 @@ padding-left: 1rem;
     top: -65px;
     width: 80%;
     margin: 0 auto;
-    left: 0;
+    left: 0;}
+
+
     `;
+
+
 
     const Image = styled.img`
 height: 100%;
