@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 const Section = styled.section`
-width: 100%
+width: 100%;
 height: 100%;
 padding: 4rem 0rem;
 `;
@@ -23,7 +23,7 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 align-items: flex-start;
-line-height 1.4;
+line-height: 1.4;
 padding: 1rem 2rem;
 order: ${({ reverse }) => (reverse ? '2' : '1')};
 
