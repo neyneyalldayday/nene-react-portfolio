@@ -14,7 +14,7 @@ transition: 0.3s;
 display: flex;
 justify-content: center;
 align-items: center;
-padding: ${({big}) => (big ? '16px 40px' : '14px 24px')
+padding: ${({big}) => (big ? '10px 35px' : '14px 24px')
 };
 
 color: ${({primary}) => (primary ? '#fff' : '#000d1a')
@@ -28,6 +28,7 @@ border-radius: ${({round}) => (round ? '50px' : '0px')
 
 &:hover {
     transform: translateY(-2px);
+    background-color: #EFE968;
 }
 
 `;

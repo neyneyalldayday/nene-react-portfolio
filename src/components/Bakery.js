@@ -61,7 +61,7 @@ img{
 `;
 
 
-const Real = ({
+const Bakery = ({
     heading,
     paragraphOne,
     paragraphTwo,   
@@ -98,4 +98,4 @@ const Real = ({
     )
 }
 
-export default Real
+export default Bakery

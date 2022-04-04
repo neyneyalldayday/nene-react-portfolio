@@ -15,6 +15,10 @@ import RealEstate from './pages/RealEstate';
 import BagaCat from './pages/BagaCat';
 import SamauriSwap from './pages/SamauriSwap';
 import WorkOut from './pages/WorkOut';
+import SaraArt from './pages/SaraArt';
+import Sherry from './pages/Sherry';
+import TwoK from './pages/TwoK';
+import MovieS from './pages/MovieS';
 import Roots from './pages/Roots';
 import Future from './pages/Future';
 import Currently from './pages/Currently';
@@ -65,6 +69,10 @@ function App() {
           <Route path="/bagacat" component={BagaCat} />  
           <Route path="/samauriswap" component={SamauriSwap} />  
           <Route path="/workout" component={WorkOut} />  
+          <Route path="/saraart" component={SaraArt} />  
+          <Route path="/sherry" component={Sherry} />  
+          <Route path="/twok" component={TwoK} />  
+          <Route path="/movies" component={MovieS} />  
           <Route path="/roots" component={Roots} />  
           <Route path="/future" component={Future} />  
           <Route path="/currently" component={Currently} />  

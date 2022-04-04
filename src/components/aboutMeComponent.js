@@ -97,11 +97,12 @@ object-fit: cover;
                         <h1>About Rene</h1>
                         <p>A little about me, my name is Rene Trevino. A fullstack software
                             developer. In years past i worked as a photographer and videographer.
-                            I got interested in sofware development after tinkering with programs
-                            and building p.c computers. Build em now talk to em, i guess was the mindset.
+                            These days I work freelance and do personal pet projects. I also work
+                            as a Teaching assistant for a FullStack boot-camp its pretty rewarding.
+                        
                         </p>
                         <h1>Software Skills</h1>
-                        <p>HTML, CSS, SASS, framer motion, gsap, aos, Javascript, express.js, node.js, React, mongoDB, mySQL, </p>
+                        <p>HTML, CSS, SASS, framer motion, gsap, aos, Javascript, express.js, node.js, React/Next.js mongoDB, mySQL, </p>
                        
                     </Content>
                     </ColumnLeft>
