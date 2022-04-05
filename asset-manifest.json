@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/nene-react-portfolio/static/css/main.a254e7ef.chunk.css",
-    "main.js": "/nene-react-portfolio/static/js/main.a871dae0.chunk.js",
-    "main.js.map": "/nene-react-portfolio/static/js/main.a871dae0.chunk.js.map",
-    "runtime-main.js": "/nene-react-portfolio/static/js/runtime-main.7597e2ee.js",
-    "runtime-main.js.map": "/nene-react-portfolio/static/js/runtime-main.7597e2ee.js.map",
+    "main.css": "/nene-react-portfolio/static/css/main.407e4ca2.chunk.css",
+    "main.js": "/nene-react-portfolio/static/js/main.c27d02ac.chunk.js",
+    "main.js.map": "/nene-react-portfolio/static/js/main.c27d02ac.chunk.js.map",
+    "runtime-main.js": "/nene-react-portfolio/static/js/runtime-main.bd4638d2.js",
+    "runtime-main.js.map": "/nene-react-portfolio/static/js/runtime-main.bd4638d2.js.map",
     "static/css/2.ec02d681.chunk.css": "/nene-react-portfolio/static/css/2.ec02d681.chunk.css",
-    "static/js/2.c3fbbf4a.chunk.js": "/nene-react-portfolio/static/js/2.c3fbbf4a.chunk.js",
-    "static/js/2.c3fbbf4a.chunk.js.map": "/nene-react-portfolio/static/js/2.c3fbbf4a.chunk.js.map",
-    "static/js/3.3c6f3403.chunk.js": "/nene-react-portfolio/static/js/3.3c6f3403.chunk.js",
-    "static/js/3.3c6f3403.chunk.js.map": "/nene-react-portfolio/static/js/3.3c6f3403.chunk.js.map",
+    "static/js/2.b057fb0d.chunk.js": "/nene-react-portfolio/static/js/2.b057fb0d.chunk.js",
+    "static/js/2.b057fb0d.chunk.js.map": "/nene-react-portfolio/static/js/2.b057fb0d.chunk.js.map",
+    "static/js/3.83a333d4.chunk.js": "/nene-react-portfolio/static/js/3.83a333d4.chunk.js",
+    "static/js/3.83a333d4.chunk.js.map": "/nene-react-portfolio/static/js/3.83a333d4.chunk.js.map",
     "index.html": "/nene-react-portfolio/index.html",
     "static/css/2.ec02d681.chunk.css.map": "/nene-react-portfolio/static/css/2.ec02d681.chunk.css.map",
-    "static/css/main.a254e7ef.chunk.css.map": "/nene-react-portfolio/static/css/main.a254e7ef.chunk.css.map",
-    "static/js/2.c3fbbf4a.chunk.js.LICENSE.txt": "/nene-react-portfolio/static/js/2.c3fbbf4a.chunk.js.LICENSE.txt",
+    "static/css/main.407e4ca2.chunk.css.map": "/nene-react-portfolio/static/css/main.407e4ca2.chunk.css.map",
+    "static/js/2.b057fb0d.chunk.js.LICENSE.txt": "/nene-react-portfolio/static/js/2.b057fb0d.chunk.js.LICENSE.txt",
     "static/media/2Kteir.3d714280.JPG": "/nene-react-portfolio/static/media/2Kteir.3d714280.JPG",
     "static/media/2kPic.1255d537.JPG": "/nene-react-portfolio/static/media/2kPic.1255d537.JPG",
     "static/media/SaraRangelArt.64192ffd.JPG": "/nene-react-portfolio/static/media/SaraRangelArt.64192ffd.JPG",
@@ -51,10 +51,10 @@
     "static/media/wurkpic.7ff66348.PNG": "/nene-react-portfolio/static/media/wurkpic.7ff66348.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.7597e2ee.js",
+    "static/js/runtime-main.bd4638d2.js",
     "static/css/2.ec02d681.chunk.css",
-    "static/js/2.c3fbbf4a.chunk.js",
-    "static/css/main.a254e7ef.chunk.css",
-    "static/js/main.a871dae0.chunk.js"
+    "static/js/2.b057fb0d.chunk.js",
+    "static/css/main.407e4ca2.chunk.css",
+    "static/js/main.c27d02ac.chunk.js"
   ]
 }
