@@ -73,7 +73,4 @@ export const ProjectData = [
     repository: 'https://github.com/neyneyalldayday/nba2k2022TeamStatsArchive'
 },
 
-
-
-
 ]

@@ -1,9 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Section = styled.section`
-width: 100%
+width: 100%;
 height: 100%;
 padding: 4rem 0rem;
 `;
@@ -23,7 +24,7 @@ display: flex;
 flex-direction: column;
 justify-content:center;
 align-items: flex-start;
-line-height 1.4;
+line-height: 1.4;
 padding: 1rem 2rem;
 order: ${({ reverse }) => (reverse ? '2' : '1')};
 
@@ -58,6 +59,10 @@ img{
         height: 90%
     }
 }
+`;
+const LinkContainer = styled.div`
+grid-row-start: 2;
+margin-left: 3rem;
 `;
 
 
@@ -94,6 +99,14 @@ const Real = ({
                data-aos-anchor-placement='center bottom'
                />
                </ColumnRight>
+               <LinkContainer>
+               <li  className = "nav-item" id="nav-item">
+                 <FontAwesomeIcon icon="hamburger" />
+                    <Link to={{ pathname:"https://real-estate-react-mock.herokuapp.com/"}} target="_blank">A mock real estate app</Link>
+                    <br></br>                    
+                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/realEstatereact"}} target="_blank">Repository</Link>                    
+                 </li>
+            </LinkContainer>
            </Container>
        </Section>
     )

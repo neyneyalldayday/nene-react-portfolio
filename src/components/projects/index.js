@@ -154,7 +154,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
                             >{slide.label}</Button>
                             <p>Here's a list of some fullstack applications and websites that ive 
                                 worked on in the past 6 months or so.
-                            </p>
+                            </p> 
                                                                         
                         </Content>
                             </ProjectSlider>

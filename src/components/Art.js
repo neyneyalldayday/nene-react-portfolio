@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 const Section = styled.section`
@@ -59,6 +61,10 @@ img{
     }
 }
 `;
+const LinkContainer = styled.div`
+grid-row-start: 2;
+margin-left: 3rem;
+`;
 
 
 const Art = ({
@@ -93,6 +99,16 @@ const Art = ({
                data-aos-anchor-placement='center bottom'
                />
                </ColumnRight>
+               <LinkContainer>
+               <li  className = "nav-item" id="nav-item">
+               <FontAwesomeIcon icon="hamburger" />
+                <Link to={{ pathname:"https://vercel.com/neyneyalldayday/rangel-works/82NKZpAPsLJ9J5BG7embsQYLXqKM"}} target="_blank">visit the app!!</Link>                           
+                </li>
+                <br></br>
+                <li className="nav-item" id="nav-item">
+                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/rangel-works"}} target="_blank">Visit the Repository</Link> 
+                </li>
+            </LinkContainer>
            </Container>
        </Section>
     )
