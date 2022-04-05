@@ -5,7 +5,6 @@ import { Route, Switch, useLocation } from "react-router-dom";
 import AboutMe from './pages/Aboutme';
 import Navbar from '../src/components/navbar';
 import Resume from '../src/components/resume';
-import Home from './pages';
 import Footer from './components/Footer';
 import GlobalStyle from './globalStyles';
 import Aos from 'aos';
@@ -61,7 +60,7 @@ function App() {
         <GlobalStyle />      
         <Navbar   />                                      
         <Switch>
-          <Route path="/home" exact component={Home} />
+          <Route path="/" exact component={Hero} />
           <Route path="/aboutMe" component={AboutMe} />           
           <Route path="/projectpage"  component={ProjectPage} />            
           <Route path="/resume" component={Resume} />  
