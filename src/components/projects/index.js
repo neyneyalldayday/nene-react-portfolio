@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
-import styled from 'styled-components/macro';
+import styled, {css} from 'styled-components/macro';
 import {motion, AnimatePresence} from 'framer-motion'
+import { IoArrowForward, IoArrowBack } from 'react-icons/io5';
 import { Button } from "../Button";
 
 
@@ -19,6 +20,10 @@ const Container = styled.div`
 background: #efe1fb;
 padding: 10rem 2rem;
 
+@media screen and (max-width: 768px) {
+ background: #573563;
+ padding: 20rem 2rem;  
+}
 
 `;
 const Wrap = styled.div`
@@ -57,10 +62,22 @@ height: 100%;
 width: 100%;
 max-width: 600px;
 max-height: 400px;
-object-fit: cover;
+object-fit: contain;
 margin-bottom: 1rem;
 position: relative;
+
+@media screen and (max-width: 768px) {
+    position: absolute;
+    top: 0;
+}
+
+@media screen and (max-width: 393px) {
+    max-width: 300px;
+    max-height: 200px; 
+   
+}
 `;
+
 
 
 const ProjectSlide = styled.div`
@@ -82,6 +99,41 @@ justify-content: center;
 
 const Title = styled.h1`
 margin: 0;
+`;
+
+
+
+const SliderButtons = styled.div`
+position: absolute;
+bottom: 50px;
+right: 50px;
+display: flex;
+z-index: 10;
+`;
+
+const arrowButtons = css`
+width: 50px;
+height: 50px;
+color: #fff;
+cursor: pointer;
+background: #000d1a;
+border-radius; 50px;
+padding: 10px;
+margin-right: 1rem;
+user-select: none;
+transition: 0.3s;
+
+&:hover {
+    background: #ECE664;
+    transform: scale(1.05);
+}
+`;
+
+const PrevArrow = styled(IoArrowBack)`
+${arrowButtons}
+`;
+const NextArrow = styled(IoArrowForward)`
+${arrowButtons}
 `;
 
 const Projects = ({ slides }) => {
@@ -106,6 +158,21 @@ useEffect(
     }, 
     [current, length]
     );
+
+    const nextSlide = () => {
+        if(timeout.current){
+            clearTimeout(timeout.current);  
+        }
+    
+        setCurrent(current === length - 1 ? 0 : current + 1);
+    }
+    
+    const prevSlide = () => {
+        if(timeout.current){
+            clearTimeout(timeout.current)  
+        }       
+        setCurrent(current === 0 ? length - 1 : current - 1);
+    }
 
 
 
@@ -165,7 +232,11 @@ if(!Array.isArray(slides) || slides.length <= 0) {
           )
          })}
           
-         </AnimatePresence>             
+         </AnimatePresence>
+         <SliderButtons>
+              <PrevArrow onClick={prevSlide} />
+              <NextArrow onClick={nextSlide} />
+          </SliderButtons>             
            </Wrap>
         </Container>  
       </Section>       
