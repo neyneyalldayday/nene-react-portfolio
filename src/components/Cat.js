@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Section = styled.section`
 width: 100%;
@@ -10,7 +11,7 @@ padding: 4rem 0rem;
 const Container = styled.div`
 padding: 3rem calc((100vw - 1300px) / 2);
 display: grid;
-grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr ;
 grid-template-rows: 800px;
 background: #efe1fb;
 
@@ -59,6 +60,10 @@ img{
     }
 }
 `;
+const LinkContainer = styled.div`
+grid-row-start: 2;
+margin-left: 3rem;
+`;
 
 
 const Real = ({
@@ -93,7 +98,17 @@ const Real = ({
                data-aos-anchor-placement='center bottom'
                />
                </ColumnRight>
+               <LinkContainer>
+            <li  className = "nav-item" id="nav-item">
+                 <FontAwesomeIcon icon="cat" />
+                    <Link to={{ pathname:"https://bag-a-cat.herokuapp.com/"}} target="_blank">Bag A Cat App</Link>
+                    <br></br>                    
+                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/Bag-a-Cat"}} target="_blank">Repository</Link>                    
+                 </li>
+            
+            </LinkContainer>
            </Container>
+          
        </Section>
     )
 }

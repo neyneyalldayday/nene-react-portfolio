@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 const Section = styled.section`
 width: 100%;
@@ -59,6 +60,10 @@ img{
     }
 }
 `;
+const LinkContainer = styled.div`
+grid-row-start: 2;
+margin-left: 3rem;
+`;
 
 
 const Bakery = ({
@@ -93,6 +98,16 @@ const Bakery = ({
                data-aos-anchor-placement='center bottom'
                />
                </ColumnRight>
+               <LinkContainer>
+               <li  className = "nav-item" id="nav-item">
+               <FontAwesomeIcon icon="hamburger" />
+                <Link to={{ pathname:"https://katys-bakery-dh29m58jx-neyneyalldayday.vercel.app/"}} target="_blank">visit the app!!</Link>                           
+                </li>
+                <br></br>
+                <li className="nav-item" id="nav-item">
+                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/Katys-bakery"}} target="_blank">Visit the Repository</Link> 
+                </li>
+            </LinkContainer>
            </Container>
        </Section>
     )
