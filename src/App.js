@@ -11,7 +11,7 @@ import Aos from 'aos';
 import 'aos/dist/aos.css'
 import ProjectPage from './pages/ProjectPage';
 import RealEstate from './pages/RealEstate';
-import BagaCat from './pages/BagaCat';
+import BagAcat from './pages/BagAcat';
 import SamauriSwap from './pages/SamauriSwap';
 import WorkOut from './pages/WorkOut';
 import SaraArt from './pages/SaraArt';
@@ -65,7 +65,7 @@ function App() {
           <Route path="/projectpage"  component={ProjectPage} />            
           <Route path="/resume" component={Resume} />  
           <Route path="/realestate" component={RealEstate} />  
-          <Route path="/bagacat" component={BagaCat} />  
+          <Route path="/bagacat" component={BagAcat} />  
           <Route path="/samauriswap" component={SamauriSwap} />  
           <Route path="/workout" component={WorkOut} />  
           <Route path="/saraart" component={SaraArt} />  
