@@ -102,11 +102,11 @@ const SearchMovies = ({
                <LinkContainer>
                <li  className = "nav-item" id="nav-item">
                <FontAwesomeIcon icon="hamburger" />
-                <Link to={{ pathname:"https://nba2k2022-team-stats-archive2-5pqp6ncod-neyneyalldayday.vercel.app/"}} target="_blank">visit the app!!</Link>                           
+                <Link to={{ pathname:"https://omdbsearchthing-f0xoxiekd-neyneyalldayday.vercel.app/"}} target="_blank">visit the app!!</Link>                           
                 </li>
                 <br></br>
                 <li className="nav-item" id="nav-item">
-                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/nba2k2022TeamStatsArchive"}} target="_blank">Visit the Repository</Link> 
+                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/omdbsearchthing"}} target="_blank">Visit the Repository</Link> 
                 </li>
             </LinkContainer>
            </Container>

@@ -196,8 +196,8 @@ if(!Array.isArray(slides) || slides.length <= 0) {
 
    
     return (
-        <Section>
-        <Container>        
+        <Section>            
+        <Container>                                                   
            <Wrap>              
               <AnimatePresence>
                 {slides.map((slide, index) => {
@@ -223,11 +223,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
                              data-aos='zoom-out' data-aos-duration='600' data-aos-delay='250'
                              to={slide.path} primary="true" round="true"
                              css={`max-width: 160px;`}
-                            >{slide.label}</Button>
-                            <p>Here's a list of some fullstack applications and websites that ive 
-                                worked on in the past 6 months or so.
-                            </p> 
-                                                                        
+                            >{slide.label}</Button>                                                      
                         </Content>
                             </ProjectSlider>
 
