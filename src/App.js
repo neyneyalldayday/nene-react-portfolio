@@ -1,5 +1,5 @@
 import './App.css';
-import React, {useEffect, useLayoutEffect} from "react";
+import React, { useState, useEffect, useLayoutEffect} from "react";
 import "../src/components/icons";
 import { Route, Switch, useLocation } from "react-router-dom";
 import AboutMe from './pages/Aboutme';
@@ -26,6 +26,7 @@ import Cinema from './pages/Cinema';
 import PcBuilds from './pages/PcBuilds';
 import Email from './pages/Emailpage';
 import Hero from './components/Hero';
+import Dropdown from './components/Dropdown';
 
 
 
@@ -38,10 +39,12 @@ import Hero from './components/Hero';
 
 
 function App() {
-  
+  const [isOpen, setIsOpen] = useState(false);
   const location = useLocation()
 
- 
+ const toggle = () => {
+  setIsOpen(!isOpen)
+ }
 
   useLayoutEffect(() => {
     window.scrollTo(0,0)
@@ -58,7 +61,8 @@ function App() {
 
     <>  
         <GlobalStyle />      
-        <Navbar   />                                      
+        <Navbar toggle={toggle}  />
+        <Dropdown isOpen={isOpen} toggle={toggle} />                                      
         <Switch>
           <Route path="/" exact component={Hero} />
           <Route path="/aboutMe" component={AboutMe} />           
