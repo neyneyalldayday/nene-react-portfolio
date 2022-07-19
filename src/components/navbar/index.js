@@ -33,7 +33,7 @@ import { Link, useLocation  } from "react-router-dom";
 
         let style = {
             backgroundColor:
-            navbar || location.pathname !== '/' ?   'transparent' : '#21213d',
+            navbar || location.pathname !== '/' ?   'transparent' :  '#21213d'  ,
             transition: '0.4s'
         }
  

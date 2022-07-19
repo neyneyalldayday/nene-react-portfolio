@@ -46,8 +46,8 @@ const Content = styled.div`
 
  h1 {
      margin-bottom: 2rem;
-     font-size: 2rem;
-     padding: 1em;
+     font-size: 1.5rem;
+     padding: .5em;
  }
 
  p {
@@ -126,6 +126,11 @@ transition: 0.3s;
 &:hover {
     background: #ECE664;
     transform: scale(1.05);
+};
+@media screen and (max-width: 393px) {
+    width: 50px;
+    height: 50px; 
+   
 }
 `;
 
