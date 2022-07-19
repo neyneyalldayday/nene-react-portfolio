@@ -79,8 +79,7 @@ function App() {
           <Route path="/cinema" component={Cinema} />  
           <Route path="/pcbuilds" component={PcBuilds} />  
           <Route path="/emailpage" component={Email} />  
-        </Switch> 
-        <Hero />     
+        </Switch>           
         <Footer />  
       </>    
   );
