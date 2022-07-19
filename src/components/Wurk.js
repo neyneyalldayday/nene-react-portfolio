@@ -100,7 +100,7 @@ const Real = ({
                </ColumnRight>
                <LinkContainer>
                <li  className = "nav-item" id="nav-item">
-               <FontAwesomeIcon icon="hamburger" />
+               <FontAwesomeIcon icon="dumbbell" />
                 <Link to={{ pathname:"https://limitless-hamlet-03137.herokuapp.com/?id=5fbaa8d0efd48b001768c5e2"}} target="_blank">visit the app!!</Link>                           
                 </li>
                 <br></br>
