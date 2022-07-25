@@ -98,7 +98,7 @@ const Email = () => {
         <Container>
             <Section>
                 <H1>email me</H1>
-            <Form  onSubmit={sendEmail}>
+                <Form  onSubmit={sendEmail}>
                     <Subject type="text" placeholder="Subject" name="subject" />
                         <label>Name</label>
                             <Name type="text" placeholder="Your name" name="name" />

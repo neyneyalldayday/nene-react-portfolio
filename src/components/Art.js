@@ -76,9 +76,9 @@ const Art = ({
     delay
 }) => {
     return (
-       <Section>
-           <Container>
-               <ColumnLeft
+     <Section>
+        <Container>
+            <ColumnLeft
                 reverse={reverse}
                 data-aos='fade-up'
                 data-aos-duration='1000'
@@ -89,8 +89,8 @@ const Art = ({
                <h1>{heading}</h1>
                <p>{paragraphOne}</p>
                <p>{paragraphTwo}</p>
-               </ColumnLeft>
-               <ColumnRight reverse={reverse}>
+            </ColumnLeft>
+            <ColumnRight reverse={reverse}>
                <img src={image} alt="home"
                data-aos='zoom-out'
                data-aos-duration='1000'
@@ -98,19 +98,19 @@ const Art = ({
                data-aos-delay={delay}
                data-aos-anchor-placement='center bottom'
                />
-               </ColumnRight>
+            </ColumnRight>
                <LinkContainer>
-               <li  className = "nav-item" id="nav-item">
-               <FontAwesomeIcon icon="hamburger" />
-                <Link to={{ pathname:"https://vercel.com/neyneyalldayday/rangel-works/82NKZpAPsLJ9J5BG7embsQYLXqKM"}} target="_blank">visit the app!!</Link>                           
-                </li>
-                <br></br>
-                <li className="nav-item" id="nav-item">
-                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/rangel-works"}} target="_blank">Visit the Repository</Link> 
-                </li>
-            </LinkContainer>
-           </Container>
-       </Section>
+                    <li  className = "nav-item" id="nav-item">
+                    <FontAwesomeIcon icon="hamburger" />
+                    <Link to={{ pathname:"https://vercel.com/neyneyalldayday/rangel-works/82NKZpAPsLJ9J5BG7embsQYLXqKM"}} target="_blank">visit the app!!</Link>                           
+                    </li>
+                    <br></br>
+                    <li className="nav-item" id="nav-item">
+                    <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/rangel-works"}} target="_blank">Visit the Repository</Link> 
+                    </li>
+                </LinkContainer>
+        </Container>
+     </Section>
     )
 }
 

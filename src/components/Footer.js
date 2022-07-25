@@ -124,7 +124,7 @@ const Footer = () => {
                 <Container>
                     <FooterTop>
                         <Quote>
-                            <h3>Its pretty addictive to kill time <br />kill with moderation</h3>
+                            <h3>'A''B''C'<br />Always Be Coding</h3>
                         </Quote>
                         <FooterInfo>
                             <h4>Rene Things</h4>

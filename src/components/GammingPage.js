@@ -16,14 +16,14 @@ grid-template-rows: 800px;
 background: #efe1fb;
 
 @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr;    
 }
 `;
 const ColumnLeft = styled.div`
 flex-direction: column;
 display: flex;
 flex-wrap: wrap;
-margin: 0px -15px;
+margin-top: 50px;
 justify-content: flex-start;
 padding: 1rem;
 `;
@@ -31,9 +31,15 @@ const Content = styled.div`
  flex: 0 0 50%;
 
  @media screen and (max-width: 768px) {
-     flex: 0 0 100%;
+     
+     max-width: 90%;
+     max-height: 50%;
+  
+ }
+ @media screen and (max-width: 360px) {
+    margin-top: -150px;
      max-width: 100%;
-     margin-top: 250px;
+   
  }
 
  h1 {
@@ -57,10 +63,12 @@ padding-left: 1rem;
 
 @media screen and (max-width: 768px) {
     height: 320px;
-    top: -365px;
+    bottom: 65px;
     width: 80%;
     margin: 0 auto;
     left: 0;
+    position:relative ;
+}
     `;
 
  const Video = styled(motion.video)`

@@ -63,9 +63,9 @@ const CinemaImage = styled(motion.video)`
 position: absolute;
 top: 0;
 left: 0;
-width: 100vw;
-height: 100vh;
-object-fit: cover;
+max-width: 100%;
+min-height: 100%;
+object-fit: contain;
 
 
 `; 
@@ -182,47 +182,45 @@ if(!Array.isArray(slides) || slides.length <= 0) {
     }
 
     return (
-        <CinemaSection>
-        <CinemaWrapper>
-            <AnimatePresence>
-     {slides.map((slide, index) => {
-      return (
-          <CinemaSlide key={index}>
-              {index === current && (
-                <CinemaSlider>
-                 <CinemaImage src={slide.image} alt={slide.alt}
-                  autoPlay loop 
-                 initial='hidden'
-                 animate='visible'
-                 exit="exit"
-                 variants={fadeAnimation}
-                 />
-                 <CinemaContent>
-                   <h1 data-aos='fade-down' data-aos-duration='600'>{slide.title}</h1>
-                   <p data-aos='fade-down' data-aos-duration='600' data-aos-delay='200'>{slide.paragraphOne}</p>
-                   <p data-aos='fade-down' data-aos-duration='600' data-aos-delay='200'>{slide.paragraphTwo}</p>
-                   <Button
-                   data-aos='zoom-out' data-aos-duration='600' data-aos-delay='250'
-                   to={slide.path}  round="true"
-                   css={`max-width: 160px;`}
-                   >
-                {slide.label}
-                <Arrow />
-            </Button>
-          </CinemaContent>                   
-      </CinemaSlider>
-
-              )}
-              
-          </CinemaSlide>
-      )
-     })} 
-     </AnimatePresence> 
-      <SliderButtons>
-          <PrevArrow onClick={prevSlide} />
-          <NextArrow onClick={nextSlide} />
-      </SliderButtons>
-        </CinemaWrapper>            
+    <CinemaSection>
+                <CinemaWrapper>
+                            <AnimatePresence>
+                                {slides.map((slide, index) => {
+                                    return (
+                        <CinemaSlide key={index}>
+                                        {index === current && (
+                            <CinemaSlider>
+                                        <CinemaImage src={slide.image} alt={slide.alt}
+                                        autoPlay loop 
+                                        initial='hidden'
+                                        animate='visible'
+                                        exit="exit"
+                                        variants={fadeAnimation}
+                                    />
+                                <CinemaContent>
+                                    <h1 data-aos='fade-down' data-aos-duration='600'>{slide.title}</h1>
+                                    <p data-aos='fade-down' data-aos-duration='600' data-aos-delay='200'>{slide.paragraphOne}</p>
+                                    <p data-aos='fade-down' data-aos-duration='600' data-aos-delay='200'>{slide.paragraphTwo}</p>
+                                        <Button
+                                            data-aos='zoom-out' data-aos-duration='600' data-aos-delay='250'
+                                            to={slide.path}  round="true"
+                                            css={`max-width: 160px;`}
+                                        >
+                                            {slide.label}
+                                            <Arrow />
+                                        </Button>
+                                </CinemaContent>                   
+                            </CinemaSlider>
+                    )}              
+                        </CinemaSlide>
+                )
+        })} 
+                            </AnimatePresence> 
+                            <SliderButtons>
+                            <PrevArrow onClick={prevSlide} />
+                            <NextArrow onClick={nextSlide} />
+                            </SliderButtons>
+                </CinemaWrapper>            
     </CinemaSection>
     )
 }

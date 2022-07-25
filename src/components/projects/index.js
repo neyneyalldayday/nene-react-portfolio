@@ -73,12 +73,9 @@ position: relative;
 
 @media screen and (max-width: 393px) {
     max-width: 300px;
-    max-height: 200px; 
-   
+    max-height: 200px;    
 }
 `;
-
-
 
 const ProjectSlide = styled.div`
 
@@ -100,8 +97,6 @@ justify-content: center;
 const Title = styled.h1`
 margin: 0;
 `;
-
-
 
 const SliderButtons = styled.div`
 position: absolute;
@@ -167,8 +162,7 @@ useEffect(
     const nextSlide = () => {
         if(timeout.current){
             clearTimeout(timeout.current);  
-        }
-    
+        }    
         setCurrent(current === length - 1 ? 0 : current + 1);
     }
     
@@ -179,12 +173,9 @@ useEffect(
         setCurrent(current === 0 ? length - 1 : current - 1);
     }
 
-
-
 if(!Array.isArray(slides) || slides.length <= 0) {
     return null;
 }
-
 
     const fadeAnimation = {
         hidden: { opacity: 0},
@@ -196,51 +187,50 @@ if(!Array.isArray(slides) || slides.length <= 0) {
 
    
     return (
-        <Section>            
+    <Section>            
         <Container>                                                   
            <Wrap>              
               <AnimatePresence>
                 {slides.map((slide, index) => {
                      return (
-                            <ProjectSlide key={index}>
+            <ProjectSlide key={index}>
                                  {index === current && (
-                             <ProjectSlider>
-                         <Image src={slide.image} alt={slide.alt}
-                         initial='hidden'
-                         animate='visible'
-                         exit="exit"
-                         variants={fadeAnimation}                         
-                         />
-                         <Content
-                         data-aos='fade-right'
-                         data-aos-duration='1200'
-                         data-aos-delay='300'
-                         data-aos-once='true'
-                         data-aos-anchor-placement='center bottom'
+                    <ProjectSlider>
+                        <Image src={slide.image} alt={slide.alt}
+                            initial='hidden'
+                            animate='visible'
+                            exit="exit"
+                            variants={fadeAnimation}                         
+                        />
+                        <Content
+                            data-aos='fade-right'
+                            data-aos-duration='1200'
+                            data-aos-delay='300'
+                            data-aos-once='true'
+                            data-aos-anchor-placement='center bottom'
                         >
-                            <Title>{slide.title}</Title>
-                            <Button 
-                             data-aos='zoom-out' data-aos-duration='600' data-aos-delay='250'
-                             to={slide.path} primary="true" round="true"
-                             css={`max-width: 160px;`}
-                            >{slide.label}</Button>                                                      
+                        <Title>{slide.title}</Title>
+                        <Button 
+                            data-aos='zoom-out' data-aos-duration='600' data-aos-delay='250'
+                            to={slide.path} primary="true" round="true"
+                            css={`max-width: 160px;`}
+                        >{slide.label}</Button>                                                      
                         </Content>
-                            </ProjectSlider>
+                    </ProjectSlider>
+                )}  
 
-                         )}  
-
-                            </ProjectSlide>
+            </ProjectSlide>
           )
          })}
           
-         </AnimatePresence>
-         <SliderButtons>
-              <PrevArrow onClick={prevSlide} />
+             </AnimatePresence>
+               <SliderButtons>
+                <PrevArrow onClick={prevSlide} />
               <NextArrow onClick={nextSlide} />
-          </SliderButtons>             
-           </Wrap>
+               </SliderButtons>             
+            </Wrap>
         </Container>  
-      </Section>       
+    </Section>       
     )
 }
 

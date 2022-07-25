@@ -77,37 +77,36 @@ const Real = ({
     return (
        <Section>
            <Container>
-               <ColumnLeft
-                reverse={reverse}
-                data-aos='fade-up'
-                data-aos-duration='1000'
-                data-aos-once='true'
-                data-aos-delay={delay}
-                data-aos-anchor-placement='center bottom'
-               >
-               <h1>{heading}</h1>
-               <p>{paragraphOne}</p>
-               <p>{paragraphTwo}</p>
-               </ColumnLeft>
-               <ColumnRight reverse={reverse}>
-               <img src={image} alt="home"
-               data-aos='zoom-out'
-               data-aos-duration='1000'
-               data-aos-once='true'
-               data-aos-delay={delay}
-               data-aos-anchor-placement='center bottom'
-               />
-               </ColumnRight>
-               <LinkContainer>
-            <li  className = "nav-item" id="nav-item">
-                 <FontAwesomeIcon icon="cat" />
-                    <Link to={{ pathname:"https://bag-a-cat.herokuapp.com/"}} target="_blank">Bag A Cat App</Link>
-                    <br></br>                    
-                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/Bag-a-Cat"}} target="_blank">Repository</Link>                    
-                 </li>
-            
-            </LinkContainer>
-           </Container>
+                    <ColumnLeft
+                            reverse={reverse}
+                            data-aos='fade-up'
+                            data-aos-duration='1000'
+                            data-aos-once='true'
+                            data-aos-delay={delay}
+                            data-aos-anchor-placement='center bottom'
+                    >
+                        <h1>{heading}</h1>
+                        <p>{paragraphOne}</p>
+                        <p>{paragraphTwo}</p>
+                    </ColumnLeft>
+                    <ColumnRight reverse={reverse}>
+                        <img src={image} alt="home"
+                        data-aos='zoom-out'
+                        data-aos-duration='1000'
+                        data-aos-once='true'
+                        data-aos-delay={delay}
+                        data-aos-anchor-placement='center bottom'
+                    />
+                    </ColumnRight>
+                    <LinkContainer>
+                            <li  className = "nav-item" id="nav-item">
+                            <FontAwesomeIcon icon="cat" />
+                            <Link to={{ pathname:"https://bag-a-cat.herokuapp.com/"}} target="_blank">Bag A Cat App</Link>
+                            <br></br>                    
+                            <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/Bag-a-Cat"}} target="_blank">Repository</Link>                    
+                            </li>            
+                    </LinkContainer>
+            </Container>
           
        </Section>
     )

@@ -76,39 +76,39 @@ const Bakery = ({
 }) => {
     return (
        <Section>
-           <Container>
-               <ColumnLeft
-                reverse={reverse}
-                data-aos='fade-up'
-                data-aos-duration='1000'
-                data-aos-once='true'
-                data-aos-delay={delay}
-                data-aos-anchor-placement='center bottom'
-               >
-               <h1>{heading}</h1>
-               <p>{paragraphOne}</p>
-               <p>{paragraphTwo}</p>
-               </ColumnLeft>
-               <ColumnRight reverse={reverse}>
-               <img src={image} alt="home"
-               data-aos='zoom-out'
-               data-aos-duration='1000'
-               data-aos-once='true'
-               data-aos-delay={delay}
-               data-aos-anchor-placement='center bottom'
-               />
-               </ColumnRight>
-               <LinkContainer>
-               <li  className = "nav-item" id="nav-item">
-               <FontAwesomeIcon icon="hamburger" />
-                <Link to={{ pathname:"https://katys-bakery-dh29m58jx-neyneyalldayday.vercel.app/"}} target="_blank">visit the app!!</Link>                           
-                </li>
-                <br></br>
-                <li className="nav-item" id="nav-item">
-                <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/Katys-bakery"}} target="_blank">Visit the Repository</Link> 
-                </li>
-            </LinkContainer>
-           </Container>
+                <Container>
+                    <ColumnLeft
+                        reverse={reverse}
+                        data-aos='fade-up'
+                        data-aos-duration='1000'
+                        data-aos-once='true'
+                        data-aos-delay={delay}
+                        data-aos-anchor-placement='center bottom'
+                    >
+                        <h1>{heading}</h1>
+                        <p>{paragraphOne}</p>
+                        <p>{paragraphTwo}</p>
+                    </ColumnLeft>
+                    <ColumnRight reverse={reverse}>
+                        <img src={image} alt="home"
+                        data-aos='zoom-out'
+                        data-aos-duration='1000'
+                        data-aos-once='true'
+                        data-aos-delay={delay}
+                        data-aos-anchor-placement='center bottom'
+                    />
+                    </ColumnRight>
+                        <LinkContainer>
+                            <li  className = "nav-item" id="nav-item">
+                            <FontAwesomeIcon icon="hamburger" />
+                            <Link to={{ pathname:"https://katys-bakery-dh29m58jx-neyneyalldayday.vercel.app/"}} target="_blank">visit the app!!</Link>                           
+                            </li>
+                            <br></br>
+                            <li className="nav-item" id="nav-item">
+                            <Link className="repository" to={{ pathname:"https://github.com/neyneyalldayday/Katys-bakery"}} target="_blank">Visit the Repository</Link> 
+                            </li>
+                        </LinkContainer>
+                </Container>
        </Section>
     )
 }

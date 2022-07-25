@@ -62,6 +62,7 @@ padding-left: 1rem;
     width: 80%;
     margin: 0 auto;
     left: 0;
+}
     `;
 const Image = styled.img`
 height: 100%;
@@ -71,43 +72,37 @@ object-fit: cover;
 
 
 
-
-
-
-
-const Resume = () => {  
-   
+const Resume = () => { 
   
     
     return (
         <Section>
-        <Container>
-           <Wrap>
-              <ColumnLeft>
+            <Container>
+                <Wrap>
+                    <ColumnLeft>
               <Content
-              data-aos='fade-right'
-              data-aos-duration='1200'
-              data-aos-delay='300'
-              data-aos-once='true'
-              data-aos-anchor-placement='center bottom'
-              >
-                  <h1>My Resume</h1>
-                  <FontAwesomeIcon icon="skull-crossbones" />
-                    <Link to={{ pathname:"https://docs.google.com/document/d/1weVT8Ctucsou5P4TQ2fi1gufxnHgmeu-LBt4XxO_ldQ/edit"}} target="_blank">Resume</Link> 
-                 
+                    data-aos='fade-right'
+                    data-aos-duration='1200'
+                    data-aos-delay='300'
+                    data-aos-once='true'
+                    data-aos-anchor-placement='center bottom'
+                      >
+                       <h1>My Resume</h1>
+                       <FontAwesomeIcon icon="skull-crossbones" />
+                       <Link to={{ pathname:"https://docs.google.com/document/d/1weVT8Ctucsou5P4TQ2fi1gufxnHgmeu-LBt4XxO_ldQ/edit"}} target="_blank">Resume</Link>               
                             
               </Content>
-              </ColumnLeft> 
-              <ColumnRight>
-              <Image src={PhotoTwo} 
-              data-aos='fade-left'
-              data-aos-duration='1200'
-              data-aos-once='true'
-              data-aos-anchor-placement='center bottom'
-              />              
-              </ColumnRight>
-           </Wrap>
-        </Container>  
+                    </ColumnLeft> 
+                    <ColumnRight>
+                        <Image src={PhotoTwo} 
+                        data-aos='fade-left'
+                        data-aos-duration='1200'
+                        data-aos-once='true'
+                        data-aos-anchor-placement='center bottom'
+                        />              
+                    </ColumnRight>
+                </Wrap>
+            </Container>  
       </Section>
        
             
