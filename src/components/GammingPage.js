@@ -50,6 +50,12 @@ const Content = styled.div`
  p {
      margin-bottom: 2rem;
      line-height: 1.5;
+
+     @media screen and (max-width: 420px) {     
+     line-height: .25;
+   
+ }
+
  }
 `;
 const ColumnRight = styled.div`
