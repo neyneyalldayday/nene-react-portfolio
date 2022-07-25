@@ -102,7 +102,7 @@ const Art = ({
                <LinkContainer>
                     <li  className = "nav-item" id="nav-item">
                     <FontAwesomeIcon icon="hamburger" />
-                    <Link to={{ pathname:"https://vercel.com/neyneyalldayday/rangel-works/82NKZpAPsLJ9J5BG7embsQYLXqKM"}} target="_blank">visit the app!!</Link>                           
+                    <Link to={{ pathname:"https://rangel-works-site-ek086x27p-neyneyalldayday.vercel.app/"}} target="_blank">visit the app!!</Link>                           
                     </li>
                     <br></br>
                     <li className="nav-item" id="nav-item">
