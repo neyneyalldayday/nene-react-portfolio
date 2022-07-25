@@ -20,12 +20,14 @@ justify-content: center;
 align-items: center;
 overflow: hidden;
 position: relative;
+
 `;
 
 const CinemaSlide = styled.div`
 z-index: 1;
 width: 100%;
 height: 100%;
+
 `;
 
 const CinemaSlider = styled.div`

@@ -65,6 +65,8 @@ max-height: 400px;
 object-fit: contain;
 margin-bottom: 1rem;
 position: relative;
+border: medium solid black;
+box-shadow: rgba(1, 1, 1, 1.4) 0px 30px 90px;
 
 @media screen and (max-width: 768px) {
     position: absolute;

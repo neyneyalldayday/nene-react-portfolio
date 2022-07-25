@@ -23,27 +23,29 @@ const ColumnLeft = styled.div`
 flex-direction: column;
 display: flex;
 flex-wrap: wrap;
-margin: 0px -15px;
+margin: 0px -5px;
 justify-content: flex-start;
 padding: 1rem;
 `;
 const Content = styled.div`
- flex: 0 0 50%;
+ flex: 0 16 50%;
 
  @media screen and (max-width: 768px) {
-     flex: 0 0 100%;
+     flex: 0 16 10%;
      max-width: 100%;
-     margin-top: 250px;
+    
  }
 
  h1 {
      margin-bottom: 2rem;
      font-size: 2rem;
+     
  }
 
  p {
      margin-bottom: 2rem;
-     line-height: 1.5;
+     line-height: 1.2;
+     font-size: 1rem;
  }
 `;
 const ColumnRight = styled.div`
@@ -57,11 +59,13 @@ padding-left: 1rem;
 
 @media screen and (max-width: 768px) {
     height: 320px;
-    top: -365px;
-    width: 80%;
-    margin: 0 auto;
-    left: 0;
-    `;
+    top: 600px;
+    width: 80%;    
+    left: 0;  
+    
+
+}
+ `;
 
  const Video = styled(motion.img)`
 height: 100%;
@@ -71,6 +75,8 @@ max-height: 400px;
 object-fit: contain;
 margin-bottom: 1rem;
 margin-right: 1rem;
+
+
 `;
 
 const PcSlide = styled.div`
@@ -90,6 +96,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 
+@media screen and (max-width: 768px) {
+    margin: 3rem;
+    overflow: hidden;
+}
+
+
 `;
 
 
@@ -107,7 +119,7 @@ user-select: none;
 transition: 0.3s;
 
 &:hover {
-    background: #cd853f;
+    background: #ECE664;
     transform: scale(1.05);
 }
 `;
@@ -130,7 +142,7 @@ ${arrowButtons}
 
 const PcBuildsPage = ({
     slides,
-    heading,
+    title,
     paragraphOne,
     paragraphTwo,  
     reverse,    
@@ -196,7 +208,7 @@ const PcBuildsPage = ({
              data-aos-anchor-placement='center bottom'
             >
             <Content>
-            <h1>{heading}</h1>
+            <h1>{title}</h1>
             <p>In 2017 i started building p.c computers. I cant really remember if it was Destiny 2 comming to P.C. or the fact that i needed a computer that could edit 4k video quickly.</p>
             <p>Ive worked on cars and all sorts of random things i have no buisness tinkering with. So i figured how hard can it be, i went to town on YouTube watching computer builds by the likes of BitWit and Paul, Jays two cents and quite a few others.</p>
             <p>over the years ive adopted that susi guys logic of .1% better everytime. I like how simple it really can be to create such a compicated object. Understanding how all these components "speak" to eachother is qute amazing. Kind of an electronic dance.</p>
