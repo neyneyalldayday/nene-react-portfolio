@@ -89,7 +89,7 @@ const Resume = () => {
                       >
                        <h1>My Resume</h1>
                        <FontAwesomeIcon icon="skull-crossbones" />
-                       <Link to={{ pathname:"https://docs.google.com/document/d/1weVT8Ctucsou5P4TQ2fi1gufxnHgmeu-LBt4XxO_ldQ/edit"}} target="_blank">Resume</Link>               
+                       <Link to={{ pathname:"https://docs.google.com/document/d/1QSTQthF5yeMU0Mo45b0FuBIbYkFvzMFQdzJ3Q_YWS_M/edit?usp=sharing"}} target="_blank">Resume</Link>               
                             
               </Content>
                     </ColumnLeft> 
