@@ -62,7 +62,7 @@ function App() {
     <>  
         <GlobalStyle />      
         <Navbar toggle={toggle}  />
-        <Dropdown isOpen={isOpen} toggle={toggle} />                                      
+        <Dropdown isOpen={isOpen} toggle={toggle} />                                              
         <Switch>         
           <Route path="/aboutMe" component={AboutMe} />           
           <Route path="/projectpage"  component={ProjectPage} />            
@@ -83,7 +83,7 @@ function App() {
           <Route path="/pcbuilds" component={PcBuilds} />  
           <Route path="/emailpage" component={Email} />  
         </Switch> 
-        <Hero />          
+        <Hero />         
         <Footer />  
       </>    
   );
