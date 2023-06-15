@@ -38,7 +38,7 @@ position: relative;
 
 @media (min-width:1024px){
     width: 80rem;
-    border: 2px solid #D5AC4E
+    border: 2px solid #D5AC4E;
 }
 `;
 
