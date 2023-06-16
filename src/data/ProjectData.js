@@ -17,22 +17,6 @@ export const ProjectData = [
     repository: "https://github.com/neyneyalldayday/realEstatereact"
 },
 {
-    title: "cat adoption",
-    image: BagCat,
-    path: "/bagacat",
-    label: 'View',
-    app: 'https://bag-a-cat.herokuapp.com/',
-    repository: 'https://github.com/neyneyalldayday/Bag-a-Cat',
-},
-{
-    title: "samauri swap meet",
-    image: SamSwap,
-    path: "/samauriswap",
-    label: 'View',
-    app: 'https://samuraiswapmeet.herokuapp.com/',
-    repository: 'https://github.com/rendod99/Project_2',
-},
-{
     title: "work out tracker",
     image: TrackWurk,
     path: "/workout",

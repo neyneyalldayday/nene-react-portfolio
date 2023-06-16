@@ -8,7 +8,7 @@ import { Button } from "../Button";
 
 const Section = styled.section`
  background: #000d1a;
- padding: 12rem 0rem;
+ padding: 12rem 6rem;
  display: flex;
  flex-direction: column;
  justify-content: center;
