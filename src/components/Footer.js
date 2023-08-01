@@ -55,7 +55,7 @@ a {
 `;
 const FooterBottom = styled.div`
 display: flex;
-padding: 2rem 0rem;
+padding: 2rem ;
 
 @media screen and (max-width: 768px) {
     flex-direction: column;
@@ -66,10 +66,13 @@ padding: 2rem 0rem;
 const SocialIcons = styled.div`
 display: flex;
 width: 50%;
+flex-wrap: wrap;
+padding: 1rem ;
 
 @media screen and (max-width: 768px) {
     margin-bottom: 2rem;
     width: 100%;
+    
 }
 `;
 
@@ -139,9 +142,9 @@ const Footer = () => {
                             <Link to="/PcBuilds">PcBuilds</Link>
                         </FooterInfo>
                     </FooterTop>
-                    <FooterBottom>                       
-                    <SocialIcons>
-                    <h1>check out my socials</h1>
+                    <FooterBottom> 
+                    <h1>check out my socials</h1>                      
+                    <SocialIcons>                    
                           <a href="https://www.youtube.com/channel/UCaHYzfP3a-uNic29DerEiLw?pbjreload=102" rel="noopener noreferrer" 
                           target="_blank">
                             <Youtube /> 
