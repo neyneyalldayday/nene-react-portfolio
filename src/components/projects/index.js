@@ -67,10 +67,15 @@ margin-bottom: 1rem;
 position: relative;
 border: medium solid black;
 box-shadow: rgba(1, 1, 1, 1.4) 0px 30px 90px;
+border-radius: 5px;
+
 
 @media screen and (max-width: 768px) {
     position: absolute;
     top: 0;
+    padding:1rem;
+    border: none ;
+    box-shadow: none;
 }
 
 @media screen and (max-width: 393px) {
@@ -83,6 +88,7 @@ const ProjectSlide = styled.div`
 
 width: 100%;
 height: 100%;
+
 `;
 
 const ProjectSlider = styled.div`
@@ -94,6 +100,7 @@ height: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
+padding: 10rem ;
 `;
 
 const Title = styled.h1`
@@ -114,7 +121,8 @@ height: 50px;
 color: #fff;
 cursor: pointer;
 background: #000d1a;
-border-radius; 50px;
+border-radius: 50px;
+box-shadow: 4px 4px 10px rgba(05, 03, 04, 0.7);
 padding: 10px;
 margin-right: 1rem;
 user-select: none;
@@ -215,7 +223,7 @@ if(!Array.isArray(slides) || slides.length <= 0) {
                         <Button 
                             data-aos='zoom-out' data-aos-duration='600' data-aos-delay='250'
                             to={slide.path} primary="true" round="true"
-                            css={`max-width: 160px;`}
+                            css={`max-width: 160px;  box-shadow: 4px 4px 10px rgba(05, 03, 04, 0.7);`}
                         >{slide.label}</Button>                                                      
                         </Content>
                     </ProjectSlider>
