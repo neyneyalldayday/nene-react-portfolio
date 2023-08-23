@@ -28,7 +28,7 @@ margin: 3rem;
 
 const HeroWrapper = styled.div`
 width: 50rem;
-height: 100vh;
+height: 70vh;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -62,6 +62,7 @@ box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 const HeroContent= styled.div`
 position: relative;
 z-index: 10;
+top: 125px;
 display: flex;
 flex-direction: column;
 max-width: 1600px;
