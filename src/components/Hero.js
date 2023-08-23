@@ -39,7 +39,8 @@ box-shadow: 4px 4px 10px rgba(05, 03, 04, 0.7);
 
 
 @media (min-width:1024px){
-    width: 80rem;
+    width: 60rem;
+    height: 40rem ;
     border: 2px solid #D5AC4E;
     border-radius: 5px ;
 }
