@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/nene-react-portfolio/static/css/main.b2acbba6.chunk.css",
-    "main.js": "/nene-react-portfolio/static/js/main.06a51295.chunk.js",
-    "main.js.map": "/nene-react-portfolio/static/js/main.06a51295.chunk.js.map",
+    "main.js": "/nene-react-portfolio/static/js/main.ed3c4e08.chunk.js",
+    "main.js.map": "/nene-react-portfolio/static/js/main.ed3c4e08.chunk.js.map",
     "runtime-main.js": "/nene-react-portfolio/static/js/runtime-main.bd4638d2.js",
     "runtime-main.js.map": "/nene-react-portfolio/static/js/runtime-main.bd4638d2.js.map",
     "static/css/2.ec02d681.chunk.css": "/nene-react-portfolio/static/css/2.ec02d681.chunk.css",
@@ -56,6 +56,6 @@
     "static/css/2.ec02d681.chunk.css",
     "static/js/2.6911ddee.chunk.js",
     "static/css/main.b2acbba6.chunk.css",
-    "static/js/main.06a51295.chunk.js"
+    "static/js/main.ed3c4e08.chunk.js"
   ]
 }
