@@ -25,8 +25,8 @@ const ColumnLeft = styled.div`
 display: flex;
 flex-wrap: wrap;
 margin: 0px -15px;
-justify-content: flex-start;
-padding: 1rem;
+justify-content: flex-end;
+padding-right: 15rem;
 `;
 const Content = styled.div`
  flex: 0 0 50%;

@@ -12,7 +12,7 @@ const Container = styled.div`
 padding: 3rem calc((100vw - 1300px) / 2);
 display: grid;
 grid-template-columns: 1fr 1fr;
-grid-template-rows: 800px;
+grid-template-rows: 400px;
 background: #efe1fb;
 
 @media screen and (max-width: 768px) {
@@ -26,6 +26,7 @@ justify-content:center;
 align-items: flex-start;
 line-height: 1.4;
 padding: 1rem 2rem;
+margin: 4rem;
 order: ${({ reverse }) => (reverse ? '2' : '1')};
 
 h1 {
@@ -34,12 +35,14 @@ h1 {
 }
 
 p{
-    margin-bottom: 2 rem;
+    margin-bottom: 2rem;
     
 }
 `;
 const ColumnRight = styled.div`
 padding: 1rem 2rem;
+max-width: 40rem;
+min-width: 25rem;
 display: flex;
 justify-content: center;
 align-items: center;
@@ -51,13 +54,9 @@ order: ${({ reverse }) => (reverse ? '1' : '2')};
 
 img{
     width:100%;
-    height: 100%;
     object-fit: cover;
-
-    @media screen and (max-width: 768px) {
-        width: 90%;
-        height: 90%
-    }
+    border-radius: 5px;
+    box-shadow: 4px  4px 8px rgba(0,0,0,0.6);  
 }
 `;
 const LinkContainer = styled.div`

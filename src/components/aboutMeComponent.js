@@ -60,7 +60,6 @@ const AboutMePage = () => {
     top: -80px;
     right: 0;
     max-width: 850px;
-
     width: 45%;
     padding-left: 1rem;
 
@@ -71,14 +70,16 @@ const AboutMePage = () => {
       margin: 0 auto;
       left: 0;
     }
+img{
+  width: 100%;
+  object-fit: cover;
+  border-radius:5px;
+  box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
+}
+   
   `;
 
-  const Image = styled.img`
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border: 2px solid #d5ac4e;
-  `;
+  
 
   return (
     <Section>
@@ -195,14 +196,13 @@ const AboutMePage = () => {
               </section>
             </Content>
           </ColumnLeft>
-          <ColumnRight>
-            <Image
-              src={DeskPhoto}
-              data-aos="fade-left"
-              data-aos-duration="1200"
-              data-aos-once="true"
-              data-aos-anchor-placement="center bottom"
-            />
+          <ColumnRight>         
+            <img src={DeskPhoto} alt="home"
+               data-aos='zoom-out'
+               data-aos-duration='1000'
+               data-aos-once='true'               
+               data-aos-anchor-placement='center bottom'
+               />
           </ColumnRight>
         </Wrap>
       </Container>

@@ -62,8 +62,6 @@ padding-left: 1rem;
     top: 600px;
     width: 80%;    
     left: 0;  
-    
-
 }
  `;
 

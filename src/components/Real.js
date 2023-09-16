@@ -23,9 +23,12 @@ const ColumnLeft = styled.div`
 display: flex;
 flex-direction: column;
 justify-content:center;
+max-width: 40rem;
+min-width: 25rem;
 align-items: flex-start;
 line-height: 1.4;
 padding: 1rem 2rem;
+margin:3rem;
 order: ${({ reverse }) => (reverse ? '2' : '1')};
 
 h1 {
@@ -50,19 +53,15 @@ order: ${({ reverse }) => (reverse ? '1' : '2')};
 }
 
 img{
-    width:100%;
-    height: 100%;
+    width:100%;   
     object-fit: cover;
-
-    @media screen and (max-width: 768px) {
-        width: 90%;
-        height: 90%
-    }
+    border-radius: 5px;  
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.8);
 }
 `;
 const LinkContainer = styled.div`
 grid-row-start: 2;
-margin-left: 3rem;
+margin-left: 4rem;
 `;
 
 

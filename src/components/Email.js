@@ -105,15 +105,11 @@ const Email = () => {
                             <label>Email</label>
                             <EmailAddress type="email" placeholder="Email Address" name="email" />
                        <label>Message</label>
-                    <Textarea name="message" placeholder="Your message" />
-                   
-                    <input type="submit" value="Send Message" />  
-                   
-                    
+                    <Textarea name="message" placeholder="Your message" />                   
+                    <input type="submit" value="Send Message" />                     
                 </Form>
             </Section>                
-        </Container>
-       
+        </Container>       
     )
 }
 
